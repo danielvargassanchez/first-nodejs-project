@@ -4,8 +4,12 @@
   "description": "this is my first nodejs program ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "daniel vargas sanchez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.16.9"
+  }
 }
